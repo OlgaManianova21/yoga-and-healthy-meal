@@ -1,0 +1,6 @@
+@import 'rsuite/dist/rsuite.min.css';
+ #root {
+ }
+.rs-carousel, .custom-slider {
+    height: 70%;
+}
