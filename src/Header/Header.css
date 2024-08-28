@@ -1,0 +1,14 @@
+nav {
+    background: #d3ebf5;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  .link {
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+  }
