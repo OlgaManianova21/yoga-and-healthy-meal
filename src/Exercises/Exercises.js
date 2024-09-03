@@ -11,7 +11,7 @@ function Exercises({homeExercises}) {
             return( 
                 <div className="product-card" key={id}>
                     <h3>{name}</h3>
-                    <img src= {image} width="500px" alt='exersises'/>
+                    <img className='imgExercise' src= {image} width="500px" alt='exercises'/>
                 <div className='product-info'>
 <h5>{showMore ? description: description.substring(0,220) + "..." }
     <button className='showLess' onClick={() => setShowMore (!showMore)}>{showMore ? "Show less" : "Show more"}</button>

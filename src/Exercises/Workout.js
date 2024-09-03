@@ -3,6 +3,7 @@ import Buttons from '../Exercises/Buttons';
 import Exercises from '../Exercises/Exercises';
 import { useState } from 'react';
 import './Exercises.css';
+import Woman from './Woman';
 
 function Workout () {
 
@@ -15,7 +16,7 @@ function Workout () {
 
     return(
        <div>
-       
+       <Woman/>
         <Buttons filteredExercises = {chosenExercises}/>
         <Exercises homeExercises = {exercise}/>
       </div>

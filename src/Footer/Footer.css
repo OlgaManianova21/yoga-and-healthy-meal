@@ -1,10 +1,10 @@
+
 .end {
     background: #d3ebf5;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    
     position: relative;
     bottom:0;
      }
@@ -17,4 +17,24 @@
 
 .icons {
     margin-top: 10px;
+  }
+
+  @media all and (max-width: 600px) {
+
+    .follow {
+        font-size: 12px;
+    }
+    .imgFooter {
+        width: 20px;
+    }
+}
+
+  @media all and (max-width: 430px) {
+
+    .follow {
+        font-size: 10px;
+    }
+    .imgFooter {
+        width: 15px;
+    }
   }

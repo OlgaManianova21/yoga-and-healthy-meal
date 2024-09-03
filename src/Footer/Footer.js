@@ -9,9 +9,9 @@ function Footer () {
   
    <div className='icons'>
    <p className="follow">Follow us</p>
-    <img src={imageOne} width="30px" alt='youtube'/>
-    <img src={imageTwo} width="30px" alt='instagram'/>
-    <img src={imageThree} width="30px" alt='facebook'/>
+    <img className='imgFooter' src={imageOne} width="30px" alt='youtube'/>
+    <img className='imgFooter' src={imageTwo} width="30px" alt='instagram'/>
+    <img className='imgFooter' src={imageThree} width="30px" alt='facebook'/>
  </div>
 
 <div>

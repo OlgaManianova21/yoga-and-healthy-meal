@@ -9,7 +9,7 @@ const MY_ID = "08474f4c";
 const MY_KEY = "58962dc77ff383b58b5c018caf02ac99";
 const [mySearch, setMySearch] = useState("");
 const [myRecipies, setMyRecipies] = useState([]);
-const [wordSubmitted, setWordSubmitted] = useState ("vegetables");
+const [wordSubmitted, setWordSubmitted] = useState ("salmon");
 
 useEffect(() => {
 const getRecipe = async() => {
@@ -34,7 +34,8 @@ const finalSearch = (e) => {
 <video autoPlay muted loop>
   <source src={video} type = "video/mp4"/>
   </video>
-  <h1 className='findRecipe'>Find a recipe</h1>
+  
+  <h1 className='find'>Find a recipe</h1>
       </div>
      
       <div className='container'>

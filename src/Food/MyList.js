@@ -3,7 +3,7 @@ const MyList = ({addMeal, mealPlans, deleteDay, selectedDay, setSelectedDay}) =>
     return( 
         <div>
 <div>
-    <h1>Weekly Meal Plan Ideas</h1>
+    <h1 className="weekly">Weekly Meal Plan Ideas</h1>
     <button className="button-add" onClick={addMeal}>Add</button>
 </div>
 

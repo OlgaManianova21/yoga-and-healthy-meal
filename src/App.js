@@ -11,7 +11,7 @@ import Header from './Header/Header';
 import Home from './Home/Home';
 import Workout from './Exercises/Workout';
 import Recipies from './Recipies/Recipies';
-import ToDOList from './Food/ToDoList';
+import ToDoList from './Food/ToDoList';
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
 
     <Routes>
 <Route path= "/" element={<Home />} />
-<Route path= "/food" element={<ToDOList />} />
+<Route path= "/food" element={<ToDoList />} />
 <Route path= "/recipies" element={<Recipies />} />
 <Route path= "/exercises" element={<Workout />} />
    </Routes>

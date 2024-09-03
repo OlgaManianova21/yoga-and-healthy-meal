@@ -9,7 +9,7 @@ export const data = [
 	{
 		id: 2,
 		name: "Front Support/ Plank",
-		searchTerm: "Back", //"abdominals", "shoulders", "arms",//
+		searchTerm: [ "Back", "Abdominals", "arms" ],
 		image: "https://img.freepik.com/free-photo/young-woman-exercising-home-mat_23-2148896461.jpg?t=st=1721547507~exp=1721551107~hmac=f74b167d33b9307877da27398a0809e98070379cbb2e850440124b0dd09be639&w=1800",
 		description: "Stay in one line from your heels to your ears. Though the focus is somewhat on the upper body, engage your legs and squeeze your glutes, the exercise will be easier.",
 	},
@@ -23,14 +23,14 @@ export const data = [
 	{
 		id: 4,
 		name: "Crunches",
-		searchTerm: "Press", //"abdominals",//
+		searchTerm: [ "Press", "Abdominals" ],
 		image: "https://img.freepik.com/free-photo/portrait-young-woman-exercising-home_23-2148896430.jpg?t=st=1721546847~exp=1721550447~hmac=df24aefb74362b2ad1c9f91f2f144f96cd3a0c967f5b0dcb8fdeb286fe705833&w=1480",
 		description: "Lie on your back and engage your core. Bring your shoulders 1 or 2 inches off the floor imagining you are bringing your ribs toward your pelvis. Exhale as you come up and keep your neck straight, chin up.Hold at the top of the movement for a few seconds, breathing continuously. Lower slowly back down without fully relaxing. Repeat for 15 to 20 repetitions with perfect form for each rep.",
 	},
 	{
 		id: 5,
 		name: "Side Plank",
-		searchTerm: "Back", //"abdominals", "shoulders", "arms",//
+		searchTerm: [ "Back", "Abdominals", "Arms" ],
 		image: "https://img.freepik.com/free-photo/young-woman-exercising-home-mat_23-2148896457.jpg?t=st=1721547405~exp=1721551005~hmac=2d48c42009d8a5d4fc32801d04a683b2bf91e2f4af02f89a8104c87c5d206f46&w=1800",
 		description: "Lie on your right side, legs extended and stacked from hip to feet. The elbow of your right arm is directly under your shoulder. Ensure your head is directly in line with your spine. Your left arm can be aligned along the left side of your body."
 	},
@@ -44,7 +44,7 @@ export const data = [
 	{
 		id: 7,
 		name: "Bird Dog Exercise",
-		searchTerm: "Abdominals", //"lower back", "gluteal muscles",//
+		searchTerm: [ "Abdominals", "Back" ],
 		image: "https://img.freepik.com/free-photo/portrait-young-woman-exercising-home_23-2148896437.jpg?t=st=1721547735~exp=1721551335~hmac=fa83f5e1bee645f9fd12fb93f384632fe8597e07fcd376f3d55cd5c52057c013&w=1800",
 		description: "Draw your shoulder blades together. Raise your right arm and left leg, keeping your shoulders and hips parallel to the floor. Lengthen the back of your neck and tuck your chin into your chest to gaze down at the floor. Hold this position for a few seconds, then lower back down to the starting position.",
 	},
@@ -57,7 +57,7 @@ export const data = [
 	},
 	{
 		id: 9,
-		name: "Shoulder Overhead Press",
+		name: [ "Shoulder", "Press" ],
 		searchTerm: "Arms",
 		image: "https://img.freepik.com/free-photo/portrait-woman-training-home-with-weights_23-2148896492.jpg?w=1380&t=st=1721585516~exp=1721586116~hmac=0c1bf01adbbe0c0d96eaaf525a718d883e25ea32998d33484c9b14d76292cad1",
 		description: "Start with feet hip-distance apart. Bring elbows out to the side creating a goal post position with arms, dumbbells are at the side of the head, and abdominals are tight. Press dumbbells slowly up until arms are straight. Slowly return to starting position with control. Repeat for the desired number of reps. To work harder and improve balance, stand on one foot while performing half the reps, then switch to the other foot.",
@@ -100,7 +100,7 @@ export const data = [
 	{
 		id: 15,
 		name: "Mountain Climber",
-		searchTerm: "Press",//Full body, with an emphasis on arms, shoulders, quads, and core//
+		searchTerm: ["Press", "Arms"], 
 		image: "https://img.freepik.com/free-photo/portrait-woman-training-home_23-2148896497.jpg?w=1800&t=st=1721672519~exp=1721673119~hmac=baaae7c70105e0c8472aad3c1a8d622cf5a65d66fe98e1a8d8d7e6b24948bbc4",
 		description: "Get into a plank position and distribute your weight evenly from your hands to your toes. Check your form—your hands should be about shoulder-width apart, back flat, abs engaged, and head in alignment. Pull your right knee into your chest as far as you can. Switch legs, pulling one knee out and bringing the other knee in. Keep your hips down and run your knees in and out as far and as fast as you can. Alternate inhaling and exhaling with each leg change.",
 	},

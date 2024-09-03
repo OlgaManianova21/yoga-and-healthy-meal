@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Food.css';
+import '../Footer/Footer.css';
 import MyList from '../Food/MyList';
 import MyMealAndIngredients from '../Food/MyMealAndIngredients';
 import { v4 as uuid } from 'uuid';
