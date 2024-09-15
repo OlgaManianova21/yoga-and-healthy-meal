@@ -44,14 +44,14 @@
 .onPicture {
     text-align: center;
     position: absolute;
-    top: 400px;
+    top: 350px;
     left: 150px;
     }
   
 .boost {
     font-size: 40px;
     font-family: "Open Sans", sans-serif;
-    color: black;
+    color: rgb(55, 53, 53);
     font-weight: bold;
     }
   

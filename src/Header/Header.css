@@ -17,6 +17,8 @@ nav {
    font-size: large;
    text-decoration: none;
   }
+  
+
   @media all and (max-width: 430px) {
     .link {
       font-size: 10px;
