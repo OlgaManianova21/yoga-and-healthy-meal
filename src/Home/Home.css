@@ -1,4 +1,5 @@
-@import 'rsuite/dist/rsuite.min.css';
+
+@import 'rsuite/dist/rsuite.css';
  #root {
  }
 .rs-carousel, .custom-slider {

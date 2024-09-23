@@ -3,7 +3,7 @@ import React from "react";
 import './Home.css';
 import '../Footer/Footer.css';
 import { Carousel } from 'rsuite';
-import 'rsuite/Carousel/styles/index.css';
+
 
 const Home = () => (
     <div className='main-content'>
