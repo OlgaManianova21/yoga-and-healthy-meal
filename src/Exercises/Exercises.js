@@ -7,7 +7,7 @@ function Exercises({homeExercises}) {
 
     return(  <div className='products'>
          {homeExercises.map((element => {
-            const{id, name,searchTerm, image, description } = element;
+            const{id, name, image, description } = element;
             return( 
                 <div className="product-card" key={id}>
                     <h3>{name}</h3>

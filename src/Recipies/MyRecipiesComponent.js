@@ -13,7 +13,7 @@ function MyRecipiesComponent({label, image, calories, ingredients}) {
 <ul className="container list">
 {ingredients.map ((ingredient,index) => (
     <li key={index}> 
-        <img src="https://img.icons8.com/?size=100&id=7690&format=png&color=000000" className="icon"/>
+        <img src="https://img.icons8.com/?size=100&id=7690&format=png&color=000000" className="icon" alt="icon"/>
         {ingredient}</li>
 ))}
 </ul>
