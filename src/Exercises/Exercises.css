@@ -53,18 +53,9 @@
     font-family: "Open Sans", sans-serif;
     color: rgb(55, 53, 53);
     font-weight: bold;
+    line-height: normal;
     }
   
-.btnShowPlan {
-    padding:15px;
-    font-size: 25px;
-    border-radius: 10px;
-    font-family: "Open Sans", sans-serif;
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    margin-top: 20px;
-  }
 .showLess {
     font-size: 10px;
     border-radius: 13px;
@@ -93,11 +84,10 @@
     .boost {
       font-size: 20px;
       }
-    .btnShowPlan {
-      padding:10px;
-      font-size: 15px;
-
-    }
+   .onPicture {
+    top: 190px;
+    left: 20px;
+   }
   }
 
     @media all and (max-width: 430px) {
@@ -112,11 +102,11 @@
       font-size: 20px;
     }
     .onPicture {
-      top: 150px;
-      left: 40px;
+      top: 140px;
+      left: 15px;
       }
     .boost {
-      font-size: 20px;
+      font-size: 15px;
     }
     .change {
       font-size: 13px;

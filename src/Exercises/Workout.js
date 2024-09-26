@@ -1,4 +1,4 @@
-import { data } from '../Exercises/Sport';
+import { data } from '../Exercises/sport';
 import Buttons from '../Exercises/Buttons';
 import Exercises from '../Exercises/Exercises';
 import { useState } from 'react';
