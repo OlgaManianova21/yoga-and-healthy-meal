@@ -27,9 +27,6 @@
     .imgFooter {
         width: 20px;
     }
-    .end {
-       position: absolute;
-    }
 }
 
   @media all and (max-width: 430px) {
