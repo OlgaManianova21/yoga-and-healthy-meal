@@ -9,7 +9,7 @@ export const data = [
 	{
 		id: 2,
 		name: "Front Support/ Plank",
-		searchTerm: [ "Back", "Abdominals", "arms" ],
+		searchTerm: [ "Back", "Abdominals", "Arms" ],
 		image: "https://img.freepik.com/free-photo/young-woman-exercising-home-mat_23-2148896461.jpg?t=st=1721547507~exp=1721551107~hmac=f74b167d33b9307877da27398a0809e98070379cbb2e850440124b0dd09be639&w=1800",
 		description: "Stay in one line from your heels to your ears. Though the focus is somewhat on the upper body, engage your legs and squeeze your glutes, the exercise will be easier.",
 	},
@@ -57,7 +57,7 @@ export const data = [
 	},
 	{
 		id: 9,
-		name: [ "Shoulder", "Press" ],
+		name:  "Shoulder Overhead Press",
 		searchTerm: "Arms",
 		image: "https://img.freepik.com/free-photo/portrait-woman-training-home-with-weights_23-2148896492.jpg?w=1380&t=st=1721585516~exp=1721586116~hmac=0c1bf01adbbe0c0d96eaaf525a718d883e25ea32998d33484c9b14d76292cad1",
 		description: "Start with feet hip-distance apart. Bring elbows out to the side creating a goal post position with arms, dumbbells are at the side of the head, and abdominals are tight. Press dumbbells slowly up until arms are straight. Slowly return to starting position with control. Repeat for the desired number of reps. To work harder and improve balance, stand on one foot while performing half the reps, then switch to the other foot.",
