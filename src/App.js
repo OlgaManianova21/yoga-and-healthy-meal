@@ -12,6 +12,7 @@ import Home from './Home/Home';
 import Workout from './Exercises/Workout';
 import Recipies from './Recipies/Recipies';
 import ToDoList from './Food/ToDoList';
+import WhatToBuy from './WhatToBuy/WhatToBuy';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 <Route path= "/food" element={<ToDoList />} />
 <Route path= "/recipies" element={<Recipies />} />
 <Route path= "/exercises" element={<Workout />} />
+<Route path= "/whattobuy" element={<WhatToBuy />} />
    </Routes>
    </Router>
 
