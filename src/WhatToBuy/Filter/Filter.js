@@ -1,11 +1,11 @@
-import { useSelector } from "react-redux";
-import { getSelectedCategory } from "../Redux/CategorySlice";
+import { useDispatch, useSelector } from "react-redux";
+import { filterCategory, getSelectedCategory } from "../Redux/CategorySlice";
 
-const Filter = ({category}) => {
-
+    const Filter = ({category}) => {
+    const dispatch = useDispatch();
     const selectedCategory = useSelector(getSelectedCategory);
     return(<div>
-<p className={selectedCategory ===category ? 'categoryButtonSelected categoryButton' : 'categoryButton'}>{category}</p>
+<p onClick={() => {dispatch(filterCategory(category))}} className={selectedCategory ===category ? 'categoryButtonSelected categoryButton' : 'categoryButton'}>{category}</p>
     </div>)
 }
 export default Filter;
