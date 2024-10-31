@@ -10,7 +10,7 @@ export const  slice = createSlice({
       const existingItem  = state.cartItems.find(cartItem => cartItem.itemId === action.payload.item.id);
         if (existingItem) {
             existingItem.quantity += action.payload.quantity;
-            existingItem.totalPrice += action.payload.quantity * action. payload.item.price;
+            existingItem.totalPrice += action.payload.quantity * action.payload.item.price;
         } else {
         const timeId = new Date().getTime()
         state.cartItems.push({

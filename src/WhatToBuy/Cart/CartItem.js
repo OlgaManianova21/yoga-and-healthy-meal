@@ -13,7 +13,7 @@ const dispatch = useDispatch();
      <p>{cartItem.quantity} item(s)</p>
      <p>Price:$ {items.price * cartItem.quantity}</p>
      <span onClick={() => dispatch(removeItemFromCart({cartItemId: cartItem.id}))}>
-     <img className="iconGarbige" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png" width= "20px"/> 
+     <img className="iconGarbige" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png" width= "20px" alt="garbige"/> 
     </span>
     </div>)
 }
