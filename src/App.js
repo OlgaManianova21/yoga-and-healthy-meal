@@ -16,12 +16,11 @@ import WhatToBuy from './WhatToBuy/WhatToBuy';
 
 
 function App() {
-
-  return ( <div>
+  return (
+     <div className='App'>
     <Router>
-
-      <Header/>
-
+    <Header/>
+    <div className='content'>
     <Routes>
 <Route path= "/" element={<Home />} />
 <Route path= "/food" element={<ToDoList />} />
@@ -29,11 +28,9 @@ function App() {
 <Route path= "/exercises" element={<Workout />} />
 <Route path= "/whattobuy" element={<WhatToBuy />} />
    </Routes>
+   </div>
    </Router>
-
-   
     <Footer/>
-  
     </div>
     );
 }

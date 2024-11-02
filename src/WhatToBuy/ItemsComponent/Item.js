@@ -9,7 +9,7 @@ const [quantity, setQuantity] = useState(1);
 const dispatch = useDispatch();
 
     return(<div className="main">
-<img src={`./${item.img}.avif`} width='500px' alt="icon"/>
+<img className="imgBottle" src={`./${item.img}.avif`}  alt="icon"/>
 <h2>{item.name}</h2>
 <p>$ {item.price}</p>
 

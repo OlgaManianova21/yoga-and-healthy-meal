@@ -18,10 +18,16 @@ nav {
    text-decoration: none;
   }
   
+  @media all and (max-width: 600px) {
+    .link {
+      font-size: 15px;
+      padding: 5px 20px;
 
+    }
+  }
   @media all and (max-width: 430px) {
     .link {
-      font-size: 10px;
+      font-size: 11px;
       padding: 5px 20px;
 
     }
