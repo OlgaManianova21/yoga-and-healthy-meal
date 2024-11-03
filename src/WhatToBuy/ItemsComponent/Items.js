@@ -12,7 +12,7 @@ const selectedCategory = useSelector(getSelectedCategory);
     if (selectedCategory === 'ALL') return true;
     return selectedCategory === item.category;
 })
-.map(item => <Item  key={item} item={item}/>)}
+.map(item => <Item  key={item.id} item={item}/>)}
     </div>)
 }
 export default Items;
