@@ -77,7 +77,7 @@ const dataItems = [
     category: 'PROTEIN BAR'
   },
   {
-    id: 11,
+    id: 12,
     price: 10,
     img: 'protein-bar-3',
     name: 'Protein Bar',
