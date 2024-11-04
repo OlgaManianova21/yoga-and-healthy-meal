@@ -9,15 +9,11 @@ function Workout () {
 
     const [exercise, setExercise] = useState(data);
 
-   
-
     const chosenExercises = (searchTerm) => {
       
         const newExercises = data.filter(element => element.searchTerm.includes(searchTerm));
         setExercise(newExercises);
     }
-
-    
 
     return(
        <div>
